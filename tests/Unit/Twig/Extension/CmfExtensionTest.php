@@ -12,13 +12,14 @@
 namespace Symfony\Cmf\Bundle\CoreBundle\Tests\Unit\Twig\Extension;
 
 use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\MockObject\MockObject;
 use Symfony\Cmf\Bundle\CoreBundle\Templating\Helper\Cmf;
 use Symfony\Cmf\Bundle\CoreBundle\Twig\Extension\CmfExtension;
 
 class CmfExtensionTest extends TestCase
 {
     /**
-     * @var Cmf|\PHPUnit_Framework_MockObject_MockObject
+     * @var Cmf|MockObject
      */
     private $cmfHelper;
 
