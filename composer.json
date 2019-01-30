@@ -14,13 +14,13 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.1",
         "symfony/framework-bundle": "^3.4 || ^4.0",
         "symfony/security-core": "^3.4 || ^4.0"
     },
     "require-dev": {
         "symfony/security-bundle": "^3.4 || ^4.0",
-        "symfony/phpunit-bridge": "^3.4 || ^4.0",
+        "symfony/phpunit-bridge": "^4.2.2",
         "mockery/mockery": "^0.9.4",
         "symfony-cmf/routing-bundle": "^2.1.0",
         "symfony-cmf/testing": "^2.1.8",
